@@ -1,6 +1,7 @@
 import { Copy } from './../js/scripts.js';
 
 let displayData = function(results) {
+
   console.log(results);
   // results.forEach(function(element) {
     // let images = results.data.images.original.url;
@@ -8,7 +9,7 @@ let displayData = function(results) {
   for(let i=0; i<25; i++) {
      $('.output2').append("<img src=" + results.data[i].images.original.url + ">");
    console.log(results.data[i].images.original.url);
- };
+ }
 
 };
 
@@ -22,6 +23,10 @@ $(document).ready(function() {
     let newSearch = new Copy(search);
     let apiResults = newSearch.apiConstructor(displayData);
 
+  });
+
+  $(".btn-error").click(function(event) {
+    $('.output2').empty();
   });
 
 });
