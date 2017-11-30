@@ -1,9 +1,9 @@
 {
-  "name": "_Rename",
+  "name": "dino-lorem-generator",
   "description": "",
   "main": "index.js",
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://github.com/vdempsey/Epicodus-nodeJs-Template",
   "ignore": [
     "**/.*",
     "node_modules",

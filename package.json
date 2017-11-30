@@ -1,7 +1,6 @@
 {
-  "name": "_Rename",
+  "name": "dino-lorem-generator",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "karma start karma.conf.js"
@@ -31,6 +30,16 @@
     "karma-jasmine": "^1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
     "karma-jquery": "^0.2.2",
-    "vinyl-source-stream": "^1.1.0"
-  }
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdempsey/Epicodus-nodeJs-Template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vdempsey/Epicodus-nodeJs-Template/issues"
+  },
+  "homepage": "https://github.com/vdempsey/Epicodus-nodeJs-Template#readme",
+  "description": ""
 }
