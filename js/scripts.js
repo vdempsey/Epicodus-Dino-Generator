@@ -20,9 +20,7 @@ export class Copy {
     let getDinos = $.get(`http://dinoipsum.herokuapp.com/api/?format=json&paragraphs=${paragraph}&words=${words}`)
     .then(function(results) {
       displayData(results);
-      results.forEach(function(element) {
-        console.log(element);
-      })
+
     })
     .fail(function() {
       console.log('Something went wrong');
