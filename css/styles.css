@@ -1,3 +1,14 @@
+.jumbotron {
+  text-align: center;
+}
+
 .output2 {
-  word-wrap: break-word;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.output2 img {
+max-height: 300px;
+max-width: 400px;
 }
